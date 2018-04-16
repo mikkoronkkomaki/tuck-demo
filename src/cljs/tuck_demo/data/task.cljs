@@ -24,7 +24,7 @@
 
   NewTask
   (process-event [{description :description} {tasks :tasks :as app}]
-    (let [id (max (inc (keys tasks)))]
+    (let [id (inc (max (keys tasks)))]
       (assoc app :tasks (assoc
                           tasks
                           id
