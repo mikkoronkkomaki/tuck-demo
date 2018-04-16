@@ -1,6 +1,6 @@
 # tuck-demo
 
-This is the tuck-demo project.
+Simple demo done to demonstrate the use of Tuck (https://github.com/tatut/tuck).
 
 ## Development mode
 
